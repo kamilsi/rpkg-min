@@ -1,0 +1,26 @@
+---
+title: "add"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{add}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(rpkgMin)
+```
+
+It works like this:
+
+```{r}
+add(1, 2)
+```
+

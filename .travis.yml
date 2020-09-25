@@ -5,3 +5,18 @@ r:
   - oldrel
   - release
   - devel
+
+notifications:
+email:
+  recipients:
+   - alerts+travis@jumpingrivers.support
+  on_success: change
+  on_failure: change
+
+git:
+  depth: 3
+
+branches:
+  only:
+  - master
+  - stable
